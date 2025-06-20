@@ -1,0 +1,4 @@
+File KnuthMorrisPratt BoyerMoore RabinKarp Bitap
+"Les Miserable" 976.849 592.736 300.841 949.594 
+"logs" 3151.31 1558.66 692.953 2994.55 
+"social" 6314.08 2676.33 1328.39 6265.73 
