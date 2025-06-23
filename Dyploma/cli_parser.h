@@ -8,6 +8,5 @@ struct CLIArgs {
 };
 
 CLIArgs parseArgs(int argc, char* argv[]) {
-    // Можно потом расширить: пока не используется
     return {};
 }

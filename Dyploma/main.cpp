@@ -26,6 +26,8 @@
 #include "comparison_counter.h"
 #include <cstdlib>
 
+
+
 bool headerPrinted = false;
 std::mutex printMutex;
 
@@ -432,6 +434,7 @@ int main() {
                 aggRes.comparisons = totalComparisons;
                 aggRes.matches = totalMatches;
                 aggRes.timeTaken = totalTime;
+                aggRes.memoryUsed = getCurrentMemoryKB();
                 aggregatedResults[algo] = aggRes;
 
 

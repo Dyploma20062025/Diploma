@@ -1,6 +1,4 @@
 ﻿#pragma once
-
-// ⏱️ Счётчик сравнений для всех ДжоДжо-алгоритмов
 class JojoComparisonCounter {
 public:
     static void reset();

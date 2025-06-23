@@ -25,7 +25,7 @@ std::vector<int> speedwagonBitapSearch(const std::string& text, const std::strin
     uint64_t match_bit = 1ULL << (m - 1);
 
     for (int i = 0; i < n; ++i) {
-        JojoComparisonCounter::add();  // One comparison per char processed
+        JojoComparisonCounter::add(); 
         R = (R << 1) | pattern_mask[(unsigned char)text[i]];
         if ((~R & match_bit) != 0) {
             result.push_back(i - m + 1);
