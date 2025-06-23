@@ -1,5 +1,5 @@
 Algorithm AverageTime
-"Boyer-Moore" 1619.83
-"Knuth-Morris-Pratt" 3430.66
-"Rabin-Karp" 680.721
-"Bitap" 3328.5
+"Boyer-Moore" 1642.49
+"Knuth-Morris-Pratt" 3485.95
+"Rabin-Karp" 682.975
+"Bitap" 3424.7
